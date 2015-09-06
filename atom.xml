@@ -4,7 +4,7 @@
   <title><![CDATA[Compiler]]></title>
   <link href="http://zhmz90.github.io/kaleidoscope/atom.xml" rel="self"/>
   <link href="http://zhmz90.github.io/kaleidoscope/"/>
-  <updated>2015-09-06T14:48:48+08:00</updated>
+  <updated>2015-09-06T14:50:02+08:00</updated>
   <id>http://zhmz90.github.io/kaleidoscope/</id>
   <author>
     <name><![CDATA[zhmz90]]></name>
@@ -206,7 +206,7 @@
 
 <p>demo:</p>
 
-<p><img class="left" src="http://zhmz90.github.io/kaleidoscope/images/demo_lexer.jpg" width="350" height="350" title="image" alt="images"></p>
+<p><img class="left" src="http://zhmz90.github.io/kaleidoscope/images/demo_lexer.jpg" width="700" height="500" title="image" alt="images"></p>
 ]]></content>
   </entry>
   
