@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/conclusion-and-other-userful-llvm-tidbits/</loc>
+    <lastmod>2015-09-06T10:59:31+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/debug-information/</loc>
+    <lastmod>2015-09-06T10:59:13+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/mutable-variables-slash-ssa-construction/</loc>
+    <lastmod>2015-09-06T10:59:03+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/user-defined-operators/</loc>
+    <lastmod>2015-09-06T10:58:43+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/control-flow/</loc>
+    <lastmod>2015-09-06T10:58:24+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/jit-and-opitmizer-support/</loc>
+    <lastmod>2015-09-06T10:58:16+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/code-generation-to-llvm-ir/</loc>
+    <lastmod>2015-09-06T10:57:51+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/parser-and-ast/</loc>
+    <lastmod>2015-09-06T10:57:37+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/lexer/</loc>
+    <lastmod>2015-09-06T10:57:21+08:00</lastmod>
+  </url>
+  <url>
     <loc>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/kaleidoscope-a-toy-language/</loc>
     <lastmod>2015-09-06T10:05:45+08:00</lastmod>
   </url>
