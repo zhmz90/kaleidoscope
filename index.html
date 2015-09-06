@@ -437,6 +437,17 @@
 <p>demo:</p>
 
 <p><img class="left" src="/kaleidoscope/images/demo_lexer.jpg" width="700" height="500" title="image" alt="images"></p>
+
+<p>makefile:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='makefile'><span class='line'><span class="nf">lexer</span><span class="o">:</span> <span class="n">lexer</span>.<span class="n">cpp</span>
+</span><span class='line'>  clang++ -g lexer.cpp  <span class="sb">`</span>llvm-config --cxxflags --ldflags --system-libs --libs core mcjit native<span class="sb">`</span> -O3 <span class="se">\</span>
+</span><span class='line'>  -o lexer
+</span></code></pre></td></tr></table></div></figure>
+
 </div>
   
   
