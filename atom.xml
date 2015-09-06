@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Compiler]]></title>
   <link href="http://zhmz90.github.io/kaleidoscope/atom.xml" rel="self"/>
   <link href="http://zhmz90.github.io/kaleidoscope/"/>
-  <updated>2015-09-06T09:45:01+08:00</updated>
+  <updated>2015-09-06T10:46:35+08:00</updated>
   <id>http://zhmz90.github.io/kaleidoscope/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[zhmz90]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Kaleidoscope: A Toy Language]]></title>
+    <link href="http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/kaleidoscope-a-toy-language/"/>
+    <updated>2015-09-06T10:05:45+08:00</updated>
+    <id>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/kaleidoscope-a-toy-language</id>
+    <content type="html"><![CDATA[<p>The Basic Language</p>
+
+<p>The Lexer</p>
+
+<p>File /home/h6/haplox/kaleidoscope/octopress/source/downloads/code/kaleidoscope/lexer.cpp could not be found</p>
+
+<p>Parser and AST</p>
+
+<p>Code generation to LLVM IR</p>
+
+<p>JIT and Optimizer Support</p>
+
+<p>control flow</p>
+
+<p>user-defined operators</p>
+
+<p>mutable variables / SSA construction</p>
+
+<p>Debug information</p>
+
+<p>conclusion and other userful LLVM tidbits</p>
+]]></content>
+  </entry>
   
 </feed>
