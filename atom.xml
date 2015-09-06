@@ -4,7 +4,7 @@
   <title><![CDATA[Compiler]]></title>
   <link href="http://zhmz90.github.io/kaleidoscope/atom.xml" rel="self"/>
   <link href="http://zhmz90.github.io/kaleidoscope/"/>
-  <updated>2015-09-06T14:41:54+08:00</updated>
+  <updated>2015-09-06T14:46:26+08:00</updated>
   <id>http://zhmz90.github.io/kaleidoscope/</id>
   <author>
     <name><![CDATA[zhmz90]]></name>
@@ -206,7 +206,7 @@
 
 <p>demo:</p>
 
-<p><img src="http://zhmz90.github.io/kaleidoscope/home/h6/haplox/kaleidoscope/octopress/source/images/demo_lexer.jpg"></p>
+<p>Error processing input, expected syntax: {% img [class name(s)] [http[s]:/]/path/to/image [width [height]] [title text | &ldquo;title text&rdquo; [&ldquo;alt text&rdquo;]] %}</p>
 ]]></content>
   </entry>
   
