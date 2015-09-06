@@ -4,7 +4,7 @@
   <title><![CDATA[kaleidoscope]]></title>
   <link href="http://zhmz90.github.io/kaleidoscope/atom.xml" rel="self"/>
   <link href="http://zhmz90.github.io/kaleidoscope/"/>
-  <updated>2015-09-06T15:56:04+08:00</updated>
+  <updated>2015-09-06T16:06:07+08:00</updated>
   <id>http://zhmz90.github.io/kaleidoscope/</id>
   <author>
     <name><![CDATA[zhmz90]]></name>
@@ -88,7 +88,10 @@
 NumberExprAST VariableExprAST BinaryExprAST CallExprAST FunctionAST PrototypeAST
 </code></pre>
 
-<p>parser:</p>
+<p>Parsers:</p>
+
+<pre><code>ParseExpression, ParseNumberExpr, ParsePrototype, ParseDefinition, ParseTopLevelExpr ...
+</code></pre>
 
 <p>makefile:</p>
 

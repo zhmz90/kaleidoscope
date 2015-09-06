@@ -9,9 +9,7 @@
   <meta name="author" content="zhmz90">
 
   
-  <meta name="description" content="AST type: ExprAST NumberExprAST VariableExprAST BinaryExprAST CallExprAST FunctionAST PrototypeAST parser: makefile: 1
-2
-clang++ -g lexer.cpp `llvm- &hellip;">
+  <meta name="description" content="AST type: ExprAST NumberExprAST VariableExprAST BinaryExprAST CallExprAST FunctionAST PrototypeAST Parsers: ParseExpression, ParseNumberExpr, &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -40,7 +38,7 @@ clang++ -g lexer.cpp `llvm- &hellip;">
   <header role="banner"><hgroup>
   <h1><a href="/kaleidoscope/">kaleidoscope</a></h1>
   
-    <h2>A toy laugage</h2>
+    <h2>A toy language</h2>
   
 </hgroup>
 
@@ -93,7 +91,10 @@ clang++ -g lexer.cpp `llvm- &hellip;">
 NumberExprAST VariableExprAST BinaryExprAST CallExprAST FunctionAST PrototypeAST
 </code></pre>
 
-<p>parser:</p>
+<p>Parsers:</p>
+
+<pre><code>ParseExpression, ParseNumberExpr, ParsePrototype, ParseDefinition, ParseTopLevelExpr ...
+</code></pre>
 
 <p>makefile:</p>
 
