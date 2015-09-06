@@ -4,7 +4,7 @@
   <title><![CDATA[Compiler]]></title>
   <link href="http://zhmz90.github.io/kaleidoscope/atom.xml" rel="self"/>
   <link href="http://zhmz90.github.io/kaleidoscope/"/>
-  <updated>2015-09-06T11:17:59+08:00</updated>
+  <updated>2015-09-06T11:37:00+08:00</updated>
   <id>http://zhmz90.github.io/kaleidoscope/</id>
   <author>
     <name><![CDATA[zhmz90]]></name>
@@ -90,7 +90,9 @@
     <link href="http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/lexer/"/>
     <updated>2015-09-06T10:57:21+08:00</updated>
     <id>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/lexer</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>The lexer of kaleidoscope</p>
+
+<p>File /home/h6/haplox/kaleidoscope/octopress/source/downloads/code/lexer.cpp could not be found</p>
 ]]></content>
   </entry>
   
