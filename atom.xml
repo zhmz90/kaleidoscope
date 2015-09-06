@@ -4,7 +4,7 @@
   <title><![CDATA[kaleidoscope]]></title>
   <link href="http://zhmz90.github.io/kaleidoscope/atom.xml" rel="self"/>
   <link href="http://zhmz90.github.io/kaleidoscope/"/>
-  <updated>2015-09-06T15:49:32+08:00</updated>
+  <updated>2015-09-06T15:56:04+08:00</updated>
   <id>http://zhmz90.github.io/kaleidoscope/</id>
   <author>
     <name><![CDATA[zhmz90]]></name>
@@ -81,8 +81,27 @@
     <link href="http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/parser-and-ast/"/>
     <updated>2015-09-06T10:57:37+08:00</updated>
     <id>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/parser-and-ast</id>
-    <content type="html"><![CDATA[<p>demo:
-<img class="left" src="http://zhmz90.github.io/kaleidoscope/images/demo_parser_ast.jpg" width="700" height="500" title="image" alt="images"></p>
+    <content type="html"><![CDATA[<p>AST type:</p>
+
+<pre><code>                         ExprAST 
+
+NumberExprAST VariableExprAST BinaryExprAST CallExprAST FunctionAST PrototypeAST
+</code></pre>
+
+<p>parser:</p>
+
+<p>makefile:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='makefile'><span class='line'><span class="err">clang++</span> <span class="err">-g</span> <span class="err">lexer.cpp</span>  <span class="err">`llvm-config</span> <span class="err">--cxxflags</span> <span class="err">--ldflags</span> <span class="err">--system-libs</span> <span class="err">--libs</span> <span class="err">core</span> <span class="err">mcjit</span> <span class="err">native`</span> <span class="err">-O3</span> <span class="err">\</span>
+</span><span class='line'><span class="err">-o</span> <span class="err">lexer</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>demo:</p>
+
+<p><img class="left" src="http://zhmz90.github.io/kaleidoscope/images/demo_parser_ast.jpg" width="700" height="500" title="image" alt="images"></p>
 
 <p>lexer_parser_ast code:</p>
 
@@ -966,6 +985,8 @@
 </span><span class='line'>  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
 </span></code></pre></td></tr></table></div></figure>
+
+
 
 ]]></content>
   </entry>

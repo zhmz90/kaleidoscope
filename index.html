@@ -291,8 +291,27 @@
   </header>
 
 
-  <div class="entry-content"><p>demo:
-<img class="left" src="/kaleidoscope/images/demo_parser_ast.jpg" width="700" height="500" title="image" alt="images"></p>
+  <div class="entry-content"><p>AST type:</p>
+
+<pre><code>                         ExprAST 
+
+NumberExprAST VariableExprAST BinaryExprAST CallExprAST FunctionAST PrototypeAST
+</code></pre>
+
+<p>parser:</p>
+
+<p>makefile:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='makefile'><span class='line'><span class="err">clang++</span> <span class="err">-g</span> <span class="err">lexer.cpp</span>  <span class="err">`llvm-config</span> <span class="err">--cxxflags</span> <span class="err">--ldflags</span> <span class="err">--system-libs</span> <span class="err">--libs</span> <span class="err">core</span> <span class="err">mcjit</span> <span class="err">native`</span> <span class="err">-O3</span> <span class="err">\</span>
+</span><span class='line'><span class="err">-o</span> <span class="err">lexer</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>demo:</p>
+
+<p><img class="left" src="/kaleidoscope/images/demo_parser_ast.jpg" width="700" height="500" title="image" alt="images"></p>
 
 <p>lexer_parser_ast code:</p>
 
@@ -1176,6 +1195,8 @@
 </span><span class='line'>  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
 </span></code></pre></td></tr></table></div></figure>
+
+
 
 </div>
   
