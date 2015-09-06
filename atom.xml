@@ -4,7 +4,7 @@
   <title><![CDATA[kaleidoscope]]></title>
   <link href="http://zhmz90.github.io/kaleidoscope/atom.xml" rel="self"/>
   <link href="http://zhmz90.github.io/kaleidoscope/"/>
-  <updated>2015-09-06T17:07:38+08:00</updated>
+  <updated>2015-09-06T19:29:56+08:00</updated>
   <id>http://zhmz90.github.io/kaleidoscope/</id>
   <author>
     <name><![CDATA[zhmz90]]></name>
@@ -72,7 +72,12 @@
     <link href="http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/code-generation-to-llvm-ir/"/>
     <updated>2015-09-06T10:57:51+08:00</updated>
     <id>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/code-generation-to-llvm-ir</id>
-    <content type="html"><![CDATA[<p>makefile:</p>
+    <content type="html"><![CDATA[<p>process:</p>
+
+<pre><code>AST --&gt; LLVM IR
+</code></pre>
+
+<p>makefile:</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>

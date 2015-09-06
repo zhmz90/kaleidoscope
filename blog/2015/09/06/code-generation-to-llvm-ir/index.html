@@ -9,10 +9,10 @@
   <meta name="author" content="zhmz90">
 
   
-  <meta name="description" content="makefile: 1
+  <meta name="description" content="process: AST --&gt; LLVM IR makefile: 1
 2
 clang++ -g lexer.cpp `llvm-config --cxxflags --ldflags --system-libs --libs core mcjit native` -O3 \
--o lexer demo: codegen.cpp: ( &hellip;">
+-o &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -87,7 +87,12 @@ clang++ -g lexer.cpp `llvm-config --cxxflags --ldflags --system-libs --libs core
   </header>
 
 
-<div class="entry-content"><p>makefile:</p>
+<div class="entry-content"><p>process:</p>
+
+<pre><code>AST --&gt; LLVM IR
+</code></pre>
+
+<p>makefile:</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
