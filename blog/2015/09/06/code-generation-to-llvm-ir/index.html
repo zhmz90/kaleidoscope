@@ -10,9 +10,7 @@
 
   
   <meta name="description" content="process: AST --&gt; LLVM IR makefile: 1
-2
-clang++ -g lexer.cpp `llvm-config --cxxflags --ldflags --system-libs --libs core mcjit native` -O3 \
--o &hellip;">
+clang++ -g lexer.cpp `llvm-config --cxxflags --ldflags --system-libs --libs core mcjit native` -O3 -o lexer - &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -95,9 +93,7 @@ clang++ -g lexer.cpp `llvm-config --cxxflags --ldflags --system-libs --libs core
 <p>makefile:</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='makefile'><span class='line'><span class="err">clang++</span> <span class="err">-g</span> <span class="err">lexer.cpp</span>  <span class="err">`llvm-config</span> <span class="err">--cxxflags</span> <span class="err">--ldflags</span> <span class="err">--system-libs</span> <span class="err">--libs</span> <span class="err">core</span> <span class="err">mcjit</span> <span class="err">native`</span> <span class="err">-O3</span> <span class="err">\</span>
-</span><span class='line'><span class="err">-o</span> <span class="err">lexer</span>
+</pre></td><td class='code'><pre><code class='makefile'><span class='line'><span class="err">clang++</span> <span class="err">-g</span> <span class="err">lexer.cpp</span>  <span class="err">`llvm-config</span> <span class="err">--cxxflags</span> <span class="err">--ldflags</span> <span class="err">--system-libs</span> <span class="err">--libs</span> <span class="err">core</span> <span class="err">mcjit</span> <span class="err">native`</span> <span class="err">-O3</span> <span class="err">-o</span> <span class="err">lexer</span> <span class="err">-rdynamic</span> <span class="err">-v</span> <span class="err">-fno-rtti</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
