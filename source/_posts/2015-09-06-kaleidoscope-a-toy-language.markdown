@@ -8,17 +8,17 @@ categories:
 
 The Basic Language
 
-The Lexer
+[The Lexer](/blog/2015/09/06/lexer/)
 
-Parser and AST
+[Parser and AST](/blog/2015/09/06/parser-and-ast/)
 
-Code generation to LLVM IR
+[Code generation to LLVM IR](/blog/2015/09/06/code-generation-to-llvm-ir/)
 
-JIT and Optimizer Support
+[JIT and Optimizer Support](/blog/2015/09/06/jit-and-opitmizer-support/)
 
-control flow
+[control flow](/blog/2015/09/06/control-flow/)
 
-user-defined operators
+[user-defined operators](/blog/2015/09/06/user-defined-operators/)
 
 mutable variables / SSA construction
 

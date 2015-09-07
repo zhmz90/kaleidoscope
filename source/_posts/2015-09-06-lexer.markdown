@@ -6,12 +6,8 @@ comments: true
 categories: 
 ---
 
-{% include_code lexer.cpp %}
 
 
-demo:
-
-{% img left /images/demo_lexer.jpg 700 500 'image' 'images' %}
 
 makefile:
 ```makefile
@@ -20,3 +16,12 @@ lexer: lexer.cpp
 	clang++ -g lexer.cpp  `llvm-config --cxxflags --ldflags --system-libs --libs core mcjit native` -O3 \
 	-o lexer 
 ```
+<!-- more -->
+
+demo:
+
+{% img left /images/demo_lexer.jpg 700 500 'image' 'images' %}
+
+lexer.cpp
+
+{% include_code lexer.cpp %}
