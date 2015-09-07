@@ -4,7 +4,7 @@
   <title><![CDATA[kaleidoscope]]></title>
   <link href="http://zhmz90.github.io/kaleidoscope/atom.xml" rel="self"/>
   <link href="http://zhmz90.github.io/kaleidoscope/"/>
-  <updated>2015-09-07T10:24:25+08:00</updated>
+  <updated>2015-09-07T10:25:17+08:00</updated>
   <id>http://zhmz90.github.io/kaleidoscope/</id>
   <author>
     <name><![CDATA[zhmz90]]></name>
@@ -5527,6 +5527,9 @@
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='makefile'><span class='line'><span class="err">clang++</span> <span class="err">-g</span> <span class="err">lexer.cpp</span>  <span class="err">`llvm-config</span> <span class="err">--cxxflags</span> <span class="err">--ldflags</span> <span class="err">--system-libs</span> <span class="err">--libs</span> <span class="err">core</span> <span class="err">mcjit</span> <span class="err">native`</span> <span class="err">-O3</span> <span class="err">-o</span> <span class="err">lexer</span> <span class="err">-rdynamic</span> <span class="err">-v</span> <span class="err">-fno-rtti</span>
 </span></code></pre></td></tr></table></div></figure>
+
+
+<!-- more -->
 
 
 <p>demo:</p>
