@@ -4,7 +4,7 @@
   <title><![CDATA[kaleidoscope]]></title>
   <link href="http://zhmz90.github.io/kaleidoscope/atom.xml" rel="self"/>
   <link href="http://zhmz90.github.io/kaleidoscope/"/>
-  <updated>2015-09-07T10:55:54+08:00</updated>
+  <updated>2015-09-07T10:56:58+08:00</updated>
   <id>http://zhmz90.github.io/kaleidoscope/</id>
   <author>
     <name><![CDATA[zhmz90]]></name>
@@ -7789,7 +7789,7 @@ NumberExprAST VariableExprAST BinaryExprAST CallExprAST FunctionAST PrototypeAST
     <id>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/kaleidoscope-a-toy-language</id>
     <content type="html"><![CDATA[<p>The Basic Language</p>
 
-<p><a href="blog/2015/09/06/lexer/">The Lexer</a></p>
+<p><a href="http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/lexer/">The Lexer</a></p>
 
 <p><a href="">Parser and AST</a></p>
 
