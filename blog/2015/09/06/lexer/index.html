@@ -9,52 +9,10 @@
   <meta name="author" content="zhmz90">
 
   
-  <meta name="description" content="(lexer.cpp) download
-1
+  <meta name="description" content="makefile: 1
 2
 3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45 &hellip;">
+lexer: lexer.cpp clang++ -g lexer.cpp `llvm-config --cxxflags --ldflags --system-libs --libs core mcjit native` -O3 \ -o lexer demo: &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -129,7 +87,27 @@
   </header>
 
 
-<div class="entry-content"><figure class='code'><figcaption><span> (lexer.cpp)</span> <a href='/kaleidoscope/downloads/code/lexer.cpp'>download</a></figcaption>
+<div class="entry-content"><p>makefile:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='makefile'><span class='line'><span class="nf">lexer</span><span class="o">:</span> <span class="n">lexer</span>.<span class="n">cpp</span>
+</span><span class='line'>  clang++ -g lexer.cpp  <span class="sb">`</span>llvm-config --cxxflags --ldflags --system-libs --libs core mcjit native<span class="sb">`</span> -O3 <span class="se">\</span>
+</span><span class='line'>  -o lexer
+</span></code></pre></td></tr></table></div></figure>
+
+
+<!-- more -->
+
+
+<p>demo:</p>
+
+<p><img class="left" src="/kaleidoscope/images/demo_lexer.jpg" width="700" height="500" title="image" alt="images"></p>
+
+<p>lexer.cpp</p>
+
+<figure class='code'><figcaption><span> (lexer.cpp)</span> <a href='/kaleidoscope/downloads/code/lexer.cpp'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -240,21 +218,6 @@
 </span><span class='line'>    <span class="n">LastChar</span> <span class="o">=</span> <span class="n">getchar</span><span class="p">();</span>
 </span><span class='line'>    <span class="k">return</span> <span class="n">ThisChar</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>demo:</p>
-
-<p><img class="left" src="/kaleidoscope/images/demo_lexer.jpg" width="700" height="500" title="image" alt="images"></p>
-
-<p>makefile:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='makefile'><span class='line'><span class="nf">lexer</span><span class="o">:</span> <span class="n">lexer</span>.<span class="n">cpp</span>
-</span><span class='line'>  clang++ -g lexer.cpp  <span class="sb">`</span>llvm-config --cxxflags --ldflags --system-libs --libs core mcjit native<span class="sb">`</span> -O3 <span class="se">\</span>
-</span><span class='line'>  -o lexer
 </span></code></pre></td></tr></table></div></figure>
 
 </div>

@@ -4,7 +4,7 @@
   <title><![CDATA[kaleidoscope]]></title>
   <link href="http://zhmz90.github.io/kaleidoscope/atom.xml" rel="self"/>
   <link href="http://zhmz90.github.io/kaleidoscope/"/>
-  <updated>2015-09-07T10:18:32+08:00</updated>
+  <updated>2015-09-07T10:24:25+08:00</updated>
   <id>http://zhmz90.github.io/kaleidoscope/</id>
   <author>
     <name><![CDATA[zhmz90]]></name>
@@ -58,6 +58,11 @@
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='makefile'><span class='line'><span class="err">clang++</span> <span class="err">-g</span> <span class="err">user_defined_types.cpp</span>  <span class="err">`llvm-config</span> <span class="err">--cxxflags</span> <span class="err">--ldflags</span> <span class="err">--system-libs</span> <span class="err">--libs</span> <span class="err">core</span> <span class="err">mcjit</span> <span class="err">native`</span> <span class="err">-O3</span> <span class="err">-o</span> <span class="err">lexer</span> <span class="err">-rdynamic</span> <span class="err">-v</span> <span class="err">-fno-rtti</span>
 </span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<!-- more-->
 
 
 <p>user_defined_types.cpp</p>
@@ -2217,6 +2222,9 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
+<!-- more-->
+
+
 <p>demo:
 <img class="left" src="http://zhmz90.github.io/kaleidoscope/images/demo_if.jpg" width="800" height="500" title="image" alt="images"></p>
 
@@ -4137,6 +4145,11 @@
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='makefile'><span class='line'><span class="err">clang++</span> <span class="err">-g</span> <span class="err">lexer.cpp</span>  <span class="err">`llvm-config</span> <span class="err">--cxxflags</span> <span class="err">--ldflags</span> <span class="err">--system-libs</span> <span class="err">--libs</span> <span class="err">core</span> <span class="err">mcjit</span> <span class="err">native`</span> <span class="err">-O3</span> <span class="err">-o</span> <span class="err">lexer</span> <span class="err">-rdynamic</span> <span class="err">-v</span> <span class="err">-fno-rtti</span>
 </span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<!-- more -->
 
 
 <p>demo:</p>
@@ -6730,6 +6743,9 @@ NumberExprAST VariableExprAST BinaryExprAST CallExprAST FunctionAST PrototypeAST
 </span></code></pre></td></tr></table></div></figure>
 
 
+<!-- more-->
+
+
 <p>demo:</p>
 
 <p><img class="left" src="http://zhmz90.github.io/kaleidoscope/images/demo_parser_ast.jpg" width="700" height="500" title="image" alt="images"></p>
@@ -7627,7 +7643,27 @@ NumberExprAST VariableExprAST BinaryExprAST CallExprAST FunctionAST PrototypeAST
     <link href="http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/lexer/"/>
     <updated>2015-09-06T10:57:21+08:00</updated>
     <id>http://zhmz90.github.io/kaleidoscope/blog/2015/09/06/lexer</id>
-    <content type="html"><![CDATA[<figure class='code'><figcaption><span> (lexer.cpp)</span> <a href='http://zhmz90.github.io/kaleidoscope/downloads/code/lexer.cpp'>download</a></figcaption>
+    <content type="html"><![CDATA[<p>makefile:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='makefile'><span class='line'><span class="nf">lexer</span><span class="o">:</span> <span class="n">lexer</span>.<span class="n">cpp</span>
+</span><span class='line'>  clang++ -g lexer.cpp  <span class="sb">`</span>llvm-config --cxxflags --ldflags --system-libs --libs core mcjit native<span class="sb">`</span> -O3 <span class="se">\</span>
+</span><span class='line'>  -o lexer
+</span></code></pre></td></tr></table></div></figure>
+
+
+<!-- more -->
+
+
+<p>demo:</p>
+
+<p><img class="left" src="http://zhmz90.github.io/kaleidoscope/images/demo_lexer.jpg" width="700" height="500" title="image" alt="images"></p>
+
+<p>lexer.cpp</p>
+
+<figure class='code'><figcaption><span> (lexer.cpp)</span> <a href='http://zhmz90.github.io/kaleidoscope/downloads/code/lexer.cpp'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -7738,21 +7774,6 @@ NumberExprAST VariableExprAST BinaryExprAST CallExprAST FunctionAST PrototypeAST
 </span><span class='line'>    <span class="n">LastChar</span> <span class="o">=</span> <span class="n">getchar</span><span class="p">();</span>
 </span><span class='line'>    <span class="k">return</span> <span class="n">ThisChar</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>demo:</p>
-
-<p><img class="left" src="http://zhmz90.github.io/kaleidoscope/images/demo_lexer.jpg" width="700" height="500" title="image" alt="images"></p>
-
-<p>makefile:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='makefile'><span class='line'><span class="nf">lexer</span><span class="o">:</span> <span class="n">lexer</span>.<span class="n">cpp</span>
-</span><span class='line'>  clang++ -g lexer.cpp  <span class="sb">`</span>llvm-config --cxxflags --ldflags --system-libs --libs core mcjit native<span class="sb">`</span> -O3 <span class="se">\</span>
-</span><span class='line'>  -o lexer
 </span></code></pre></td></tr></table></div></figure>
 
 ]]></content>
